@@ -553,7 +553,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3270156372655439267, guid: 35addd6faa3202b428f1ab88acf8bef2, type: 3}
       propertyPath: m_Name
-      value: Seat
+      value: OppSeat
       objectReference: {fileID: 0}
     - target: {fileID: 4624964398561675640, guid: 35addd6faa3202b428f1ab88acf8bef2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -703,7 +703,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3270156372655439267, guid: 35addd6faa3202b428f1ab88acf8bef2, type: 3}
       propertyPath: m_Name
-      value: Seat (1)
+      value: PlayerSeat
       objectReference: {fileID: 0}
     - target: {fileID: 4624964398561675640, guid: 35addd6faa3202b428f1ab88acf8bef2, type: 3}
       propertyPath: m_LocalPosition.x
