@@ -29,7 +29,9 @@ public class MousePosScript : MonoBehaviour
             if (hitSomething && raycastHit.collider.GetComponent<Collider>().tag == "Tile")
             {
                 Debug.Log(raycastHit.transform.name);
-                //make o visible
+                Opiece opiece = raycastHit.transform.GetComponentInChildren<Opiece>();
+                MeshRenderer meshRenderer = opiece.GetComponent<MeshRenderer>();
+                meshRenderer.enabled = true;
             }
             else
             {
