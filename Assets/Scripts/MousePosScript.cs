@@ -31,7 +31,9 @@ public class MousePosScript : MonoBehaviour
                 Debug.Log(raycastHit.transform.name);
                 Opiece opiece = raycastHit.transform.GetComponentInChildren<Opiece>();
                 MeshRenderer meshRenderer = opiece.GetComponent<MeshRenderer>();
+                SphereCollider sphereCollider = GetComponent<SphereCollider>();
                 meshRenderer.enabled = true;
+                sphereCollider.enabled = true;
             }
             else
             {
